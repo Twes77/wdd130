@@ -1,0 +1,22 @@
+body {
+    background-color:bisque
+}
+
+/*The period targets a class in html */
+.nav_link {
+    padding: 10px;
+    color:#52b69a;
+    font-size: 1.3em;
+}
+
+img {
+    width: 300px;
+}
+
+#main_title {
+    font-size: 3em;
+}
+
+#sub_title {
+    font-size: 1.4em;
+}
