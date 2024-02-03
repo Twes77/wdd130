@@ -1,20 +1,58 @@
+
 body {
     background-color:bisque
+}
+
+#content {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(188, 165, 137);
+    padding: 10px;
 }
 
 /*The period targets a class in html */
 .nav_link {
     padding: 10px;
-    color:#52b69a;
+    color:#2c945c;
     font-size: 1.3em;
+    text-decoration: none;
 }
 
 img {
-    width: 300px;
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+}
+
+a {
+    color: black;
+}
+
+nav a:hover {
+    background-color:rgb(163, 160, 160);
 }
 
 #main_title {
     font-size: 3em;
+    text-align: center;
+}
+
+footer {
+    background-color:  rgb(188, 165, 137);
+    padding: 20px;
+}
+
+footer a {
+    color: #2c945c;
+}
+
+p, h3 {
+    text-align: center;
 }
 
 #sub_title {

@@ -1,0 +1,25 @@
+body {
+    background-color: #5ca1d7;
+    align-content: center;
+    text-align: center;
+}
+
+img {
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+}
+
+.center {
+    text-align: left;
+    list-style-position: inside;
+}
+
+#content {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-weight: bold;
+}
