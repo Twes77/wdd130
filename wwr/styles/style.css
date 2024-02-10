@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&family=Salsa&display=swap');
+
 .content {
     max-width: 1600px;
     margin: 0 auto;
@@ -21,12 +23,17 @@ main section {
     text-align: center;
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
 #background {
     height: 725px;
 }
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img {
@@ -36,15 +43,29 @@ main section {
 body {
     background-color: #f2f7f9; 
     color: black;
+    font-family: "Comic Neue", Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 header {
     background-color: #1c3c59; 
     color: #fff; 
+    font-family: Salsa, Tahoma, Trebuchet;
+}
+
+h2, h1 {
+    font-family: Salsa, Tahoma, Trebuchet;
+}
+
+h2 {
+    margin: 0;
 }
 
 nav a {
     color: #92c5e2; 
+    padding: 35px;
 }
 
 nav a:hover {
@@ -54,6 +75,8 @@ nav a:hover {
 
 .home-title {
     color: #1c3c59; 
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4 {
@@ -65,6 +88,10 @@ h4 {
     color: #fff; 
     text-align: center;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -81,17 +108,26 @@ h4 {
 
 .msg p {
     color: black; 
+    font-size: 0.8em;
+    padding-bottom: 15px;
 }
+
+.msg {
+    line-height: 1.5em;
+    padding: 35px;
+  }
 
 footer {
     background-color: #1c3c59; 
     color: #fff; 
+    padding: 25px 50px;
 }
 
 footer a {
     color: #92c5e2; 
     text-align: center;
     text-decoration: none;
+    margin-top: 200px;
 }
 
 footer a:hover {
@@ -104,5 +140,21 @@ footer p a:hover {
 
 footer p {
     font-size: 1.2em;
-}    
+}
+
+footer, .social img {
+    padding-top: 15px;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+.rivers-card, .camping-card, .rapids-card {   
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #1c3c59;
+}
         
