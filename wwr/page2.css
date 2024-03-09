@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&family=Salsa&display=swap');
+
+.content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #1c3c59; 
+    color: #fff; 
+    font-family: Salsa, Tahoma, Trebuchet;
+    display: grid;
+    grid-template-columns: 150px auto;
+    font-size: x-large;
+}
+
+nav a {
+    text-align: center;
+    text-decoration: none;
+    color: #92c5e2; 
+    padding: 70px;
+
+}
+
+nav a:hover {
+    background-color: #92c5e2; 
+    color: #fff; 
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+.logo, .icon {
+    width: 100px;
+}
+
+footer {
+    background-color: #1c3c59; 
+    color: #fff; 
+    padding: 25px 50px;
+    margin-top: 200px; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+footer a {
+    color: #92c5e2; 
+    text-align: center;
+    text-decoration: none;
+    margin-top: 200px;
+}
+
+footer a:hover {
+    color: #fff; 
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}    
+
+footer p {
+    font-size: 1.2em;
+}
+
+.main-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+}
+
+.content-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    text-align: center; /* Center the content */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; 
+}
+
+.text-section {
+    max-width: 80%; 
+    margin: 0 auto; 
+    font-size: 20px;
+    font-family: "Comic Neue", Helvetica, sans-serif;
+}
+
+h1 {
+    margin: 10px;
+    font-size: 50px;
+    font-family: Salsa, Tahoma, Trebuchet;
+}
