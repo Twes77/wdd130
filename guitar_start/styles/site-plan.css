@@ -173,3 +173,8 @@ nav a:hover {
   border-top: 1px solid;
   border-right: 1px solid;
 }
+
+#homeimg, #pg2img, #pg3img {
+  width: 20%;
+  height: auto;
+}
