@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Klee+One&family=Neucha&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Klee", serif;
+    line-height: 1.6;
+    text-align: center; 
+}
+
+header {
+    background-color: #9c562f; 
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+nav a {
+    color: #fff;
+    font-size: x-large;
+    font-family: "Neucha", sans-serif ;
+    margin-right: 20px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+    margin: 0 auto; 
+    max-width: 800px; 
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-between; 
+}
+
+img {
+    width: 80%;
+    margin: 20px auto 10px; 
+}
+
+p {
+    width: 48%; 
+    border: 2px solid #ccc;
+    padding: 10px;
+    margin: 10px auto; 
+}
+
+footer {
+    background-color: #9c562f; 
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+footer nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+footer nav a:hover {
+    text-decoration: underline;
+}
