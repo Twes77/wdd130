@@ -16,6 +16,7 @@ header {
     background-color: #9c562f; 
     color: #fff;
     padding: 10px;
+    height: 110px;
     display: flex;
     justify-content: center; 
     align-items: center;
